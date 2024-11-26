@@ -48,7 +48,7 @@ echo "My First Project" > README.md
 git add README.md
 ```
 * The command git add README.md is used to stage the README.md file for the next commit in your Git repository
-
+ 
 #### 3.Commit the file
 ```
 git commit -m "Initial commit: Added README.md"
@@ -132,9 +132,9 @@ git checkout feature-login are used to create a new branch named.
 
 or.use:
 ```
-git checout -b feature -login
+git checkout -b feature -login
 ```
-* The correct command to create and switch to a new branch in Git
+* The command to create and switch to a new branch in Git
 
 #### 2. Add a new file and commit change
 ```

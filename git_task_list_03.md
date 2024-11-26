@@ -175,10 +175,12 @@ git commit -m "Modified conflict.txt in feature-branch"
 git checkout main
 ```  
  * Switches back to the `main` branch.
-```git merge feature-branch
+```
+git merge feature-branch
 ```  
  * Attempts to merge changes, causing a conflict.
-```git add conflict.txt
+```
+git add conflict.txt
 ```  
  * Stages the resolved file after manually editing it.
 ```
