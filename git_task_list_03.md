@@ -102,7 +102,8 @@ git branch
 git branch feature-branch
 ```  
   * Creates a new branch without switching to it.
- ```git checkout feature-branch
+ ```
+ git checkout feature-branch
  ```  
   * Switches to the specified branch.
     ```
@@ -152,7 +153,8 @@ echo "Main branch content" > conflict.txt
 git add conflict.txt
 ```  
  * Stages the change.
-```git commit -m "Added conflict.txt in main branch"
+```
+git commit -m "Added conflict.txt in main branch"
 ```  
  * Commits the staged file in the `main` branch.
 ```
